@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  	justify-content: center;
+	margin: 0 auto;
+	width: 60%;
+	height: 100vh;
+}
+
+.container {
+	width: 100%;
+	padding: 10px;
+	background-color: gainsboro;
+}
+
+.main-form {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bottom {
+	flex-direction: column-reverse;
+}
+
+.form-label {
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.form-input {
+	border: 1px solid;
+	border-radius: 6px;
+	outline: none;
+	width: 130px;
+	height: 35px;
+	text-align: center;
+}
+
+.form-button {
+	background-color: white;
+	border: 1px solid;
+	border-radius: 6px;
+	outline: none;
+	width: 80px;
+	height: 35px;
+}
+
+.form-button:hover {
+	background-color: grey;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.form-button:active {
+	background-color: black;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	color: white;
+}
+
+.history {
+	width: 100%;
+}
+
+.form-table {
+	margin-top: 10px;
+	width: 100%;
+	font-size: 14px;
+	font-weight:100;
+}
+
+.remove {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	align-content: center;
+	color: red;
+	border-style: none;
+	background-color: gainsboro;
+}
+
+.remove:hover {
+	cursor: pointer;
+}
+
